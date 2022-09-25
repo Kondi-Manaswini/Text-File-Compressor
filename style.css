@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    background-color: #43cea2;
+}
+
+p {
+    text-shadow: 2px 2px rgb(174, 174, 180);
+    font-family: algerian;
+    font-size: 50px;
+}
+
+.navbar
+{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'cosmic sans ms','Courier New', Courier, monospace;
+    background-color: #185a9d;
+    display: flex;
+    justify-content: center;  
+    color: rgb(18, 3, 119);
+    border-bottom-width: 10px black;
+}
+
+#container{
+    width: 100%;
+    height: 60%;
+    background-image: linear-gradient(#185a9d, #43cea2);
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.text_box {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.bottom{
+    background-color: #43cea2;
+}
+
+.encode_button{
+    margin-left: 30%;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px 10px 10px 30px;
+    background-image: linear-gradient( #185a9d, #43cea2);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    cursor: pointer;
+    border-width: 1.5px;
+}
+
+.decode_button{
+    font-size: 20px;
+    margin-left: 25%;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px 10px 30px 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient( #185a9d, #43cea2);
+    font-weight: bolder;
+    cursor: pointer;
+    border-width: 1.5px;
+}
+
+.buttons{
+    margin-top: 70px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text File Compresser</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="Heap.js"></script>
+    <script src="Huffman.js" type="module"></script>
+    <script src="script.js" type="module"></script>
+</head>
+
+<body>
+    <div class="navbar">
+       <p>TEXT FILE COMPRESSOR</p>
+    </div>
+
+    <div id="container">
+        <div class="text_box" style="overflow-y: scroll">
+            <span 
+            id="treearea" 
+            style="width: 100%; text-align: center; font-size: medium; font-family: 'courier new', Courier, monospace; font-weight: bolder">
+                Tree Structure Will Be Displayed Here !!
+            </span>
+        </div>
+        <div class="text_box" style="overflow-y: scroll">
+            <span id="temptext" style="width: 100%; text-align: center; font-size: medium; font-weight: bolder; font-family: 'Courier New', Courier, monospace;">
+                Compression ratio will be displayed here !!
+            </span>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <form method="post" enctype="multipart/form-data" style="display: inline-block; margin-left: 46%;">
+            <input type="file" id="uploadedFile"/>
+        </form>
+
+        <br>
+        
+        <div class="buttons">
+        <button type="button" class="encode_button" id="encode">Encode</button>
+
+
+        <button type="button" class="decode_button" id="decode">Decode</button>
+        </div>
+    </div>
+    
+</body>
+
+</html>
